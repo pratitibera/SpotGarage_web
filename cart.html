@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>SPOTGARAGE</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/aos.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <style>
+         body{
+            background-color: #EFEFEF;
+         }
+      </style>
+   </head>
+   <body>
+      <header>
+         <!---Topmost header starts--->
+         <div class="row m-0 topmostheader d-none d-md-flex">
+            <div class="col-md-4">
+               <div class="row m-0 topmostheader_socialicons p-4 pl-5">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+               </div>
+            </div>
+            <div class="col-md-4 bg-dark">
+               <div class="topmostheader_logo">
+                  <img src="img/logo.png" class="w-100">
+               </div>
+            </div>
+            <div class="col-md-4 bg-dark topmostheader_contact text-center pt-4">
+               <div class="text-white fo-18 fw-700"><i class="fas fa-phone-volume"></i> +91-0321654987</div>
+            </div>
+         </div>
+         <!---Topmost header ends--->
+         <!---Navbar starts--->
+         <nav class="navbar navbar-expand-md bg-white navbar-dark p-md-0">
+            <a class="navbar-brand d-md-none" href="#">
+            <img src="img/logo.png" class="w-100">
+            </a>
+            <div class="menu-btn navbar-toggler-icon d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+               <div class="menu-btn__burger"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               <div class="row m-0 bg-red">
+                  <div class="col-md-10 p-2">
+                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Track Order</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-2 m-auto text-center p-2">
+                     <div class="fo-20 fw-700 text-white">Login</div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <!---Navbar ends--->
+      </header>
+
+      <section class="website_section" id="cart_full">
+         <div class="fo-32 mfo-24 fw-800"><i class="fas fa-arrow-left mr-2"></i> My Cart</div>
+         <div class="cart_login_section mt-3">
+            <div class="fo-20 fw-600 mfo-14">To place an order, you need to first <span class="fo-22 bco cursorPointer" data-toggle="modal" data-target="#login">Login!</span></div>
+         </div>
+         <div class="row m-0 mt-4 cart_section">
+            <div class="col-md-7">
+               <div class="row bg-white p-4 m-0 mb-3">
+                  <div class="col-3 col-md-2 p-0">
+                     <img src="img/service/14.png" class="w-100">
+                  </div>
+                  <div class="col-6 col-md-4 m-auto pl-4">
+                     <div class="fo-22 mfo-14 fw-600">Honda City</div>
+                     <div class="fo-18 mfo-13 fw-600 txtco">Diesel</div>
+                  </div>
+                  <div class="col-3 col-md-6"></div>
+               </div>
+               <div class="row bg-white p-3 m-0 mb-3">
+                  <div class="col-6 col-md-6 pl-0 m-auto">
+                     <div class="fo-16 mfo-14 fw-700">1 Service Added</div>
+                  </div>
+                  <div class="col-6 col-md-6 m-auto text-right">
+                     <div class="fo-16 mfo-14 fw-700 bco"><i class="fas fa-plus-circle mr-2"></i> More Services</div>
+                  </div>
+               </div>
+               <div class="row bg-white p-3 m-0 mb-3">
+                  <div class="col-3 col-md-2 pl-0">
+                     <img src="img/service/15.png" class="w-100">
+                  </div>
+                  <div class="col-8 col-md-9 m-auto pl-4">
+                     <div class="fo-18 mfo-14 fw-700">Oil Change</div>
+                     <div class="fo-18 mfo-14 fw-800 bco mt-2">₹ 799</div>
+                  </div>
+                  <div class="col-1 col-md-1 p-0 text-right">
+                     <i class="fas fa-trash txtco fo-18"></i>
+                  </div>
+               </div>
+               <div class="row bg-white p-3 m-0 mb-3">
+                  <div class="col-6 col-md-6 pl-0">
+                     <div class="fo-16 mfo-14 fw-700">Issues</div>
+                  </div>
+                  <div class="col-6 col-md-6 text-right">
+                     <div class="fo-16 mfo-14 fw-700 bco cursorPointer" data-toggle="modal" data-target="#addIssues"><i class="fas fa-plus-circle mr-2"></i> Add Issues</div>
+                  </div>
+                  <div class="col-12 col-md-12 p-0 mt-2">
+                     <div class="fo-14 mfo-13 txtco">Please mention any symptoms(issues) you have noticed in your car. This will help our technician to diagnose better.</div>
+                  </div>
+               </div>
+               <div class="bg-white p-3">
+                  <div class="fo-18 mfo-14 fw-700">Frequently Added Together</div>
+                  <div class="fo-13 mfo-13 txtco">Add more product for extra discount</div>
+                  <div class="owl-carousel position-relative mt-md-4" id="frequently_added">
+                     <div class="p-2">
+                        <div class="card p-0">
+                           <div class="row m-0 pt-3">
+                              <div class="col-8 col-md-8">
+                                 <div class="fo-17 mfo-14 fw-600">Lorem Ipsum</div>
+                                 <div class="fo-12 fw-600 txtco">Lorem Ipsum</div>
+                              </div>
+                              <div class="col-4 col-md-4 p-0">
+                                 <img src="img/service/16.png" class="w-100">
+                              </div>
+                              <div class="col-6 col-md-7 m-auto">
+                                 <div class="row m-0">
+                                    <div class="text-right fo-15 fw-700 bco mr-2">₹ 799</div>
+                                    <div class="text-right fo-15 fw-700 services_topcard_txt2">₹ 999</div>
+                                 </div>
+                              </div>
+                              <div class="col-6 col-md-5 text-right p-0 pr-3 pt-2">
+                                 <i class="fas fa-plus-circle bco fo-20"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div> 
+                     <div class="p-2">
+                        <div class="card p-0">
+                           <div class="row m-0 pt-3">
+                              <div class="col-8 col-md-8">
+                                 <div class="fo-17 mfo-14 fw-600">Lorem Ipsum</div>
+                                 <div class="fo-12 fw-600 txtco">Lorem Ipsum</div>
+                              </div>
+                              <div class="col-4 col-md-4 p-0">
+                                 <img src="img/service/16.png" class="w-100">
+                              </div>
+                              <div class="col-6 col-md-7 m-auto">
+                                 <div class="row m-0">
+                                    <div class="text-right fo-15 fw-700 bco mr-2">₹ 799</div>
+                                    <div class="text-right fo-15 fw-700 services_topcard_txt2">₹ 999</div>
+                                 </div>
+                              </div>
+                              <div class="col-6 col-md-5 text-right p-0 pr-3 pt-2">
+                                 <i class="fas fa-plus-circle bco fo-20"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div> 
+                     <div class="p-2">
+                        <div class="card p-0">
+                           <div class="row m-0 pt-3">
+                              <div class="col-8 col-md-8">
+                                 <div class="fo-17 mfo-14 fw-600">Lorem Ipsum</div>
+                                 <div class="fo-12 fw-600 txtco">Lorem Ipsum</div>
+                              </div>
+                              <div class="col-4 col-md-4 p-0">
+                                 <img src="img/service/16.png" class="w-100">
+                              </div>
+                              <div class="col-6 col-md-7 m-auto">
+                                 <div class="row m-0">
+                                    <div class="text-right fo-15 fw-700 bco mr-2">₹ 799</div>
+                                    <div class="text-right fo-15 fw-700 services_topcard_txt2">₹ 999</div>
+                                 </div>
+                              </div>
+                              <div class="col-6 col-md-5 text-right p-0 pr-3 pt-2">
+                                 <i class="fas fa-plus-circle bco fo-20"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div> 
+                     <div class="p-2">
+                        <div class="card p-0">
+                           <div class="row m-0 pt-3">
+                              <div class="col-8 col-md-8">
+                                 <div class="fo-17 mfo-14 fw-600">Lorem Ipsum</div>
+                                 <div class="fo-12 fw-600 txtco">Lorem Ipsum</div>
+                              </div>
+                              <div class="col-4 col-md-4 p-0">
+                                 <img src="img/service/16.png" class="w-100">
+                              </div>
+                              <div class="col-6 col-md-7 m-auto">
+                                 <div class="row m-0">
+                                    <div class="text-right fo-15 fw-700 bco mr-2">₹ 799</div>
+                                    <div class="text-right fo-15 fw-700 services_topcard_txt2">₹ 999</div>
+                                 </div>
+                              </div>
+                              <div class="col-6 col-md-5 text-right p-0 pr-3 pt-2">
+                                 <i class="fas fa-plus-circle bco fo-20"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div> 
+                  </div>
+                  <div class="owl-navigation owl-navigation-frequently_added">
+                     <span class="owl-nav-prev"><i class="fas fa-chevron-circle-left txtco"></i></span>
+                     <span class="owl-nav-next"><i class="fas fa-chevron-circle-right txtco"></i></span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-5 pl-0">
+               <div class="row bg-white p-3 m-0 mb-3">
+                  <div class="col-12 col-md-12">
+                     <div class="fo-20 mfo-14 fw-700">COUPONS</div>
+                  </div>
+                  <div class="col-11 col-md-11 mt-3">
+                     <div class="fo-18 mfo-14 fw-700"><i class="fas fa-badge-percent mr-3 bco"></i>Apply Coupon</div>
+                  </div>
+                  <div class="col-1 col-md-1 p-0 mt-3">
+                     <i class="fas fa-chevron-right fo-18 cursorPointer" data-toggle="modal" data-target="#applyCoupon"></i>
+                  </div>
+               </div>
+               <div class="bg-white mb-3">
+                  <div class="col-12 col-md-12 pt-3 pb-3 pl-4">
+                     <div class="fo-20 mfo-14 fw-700">Price Details ( 1 Service )</div>
+                  </div>
+                  <div class="row m-0">
+                     <div class="col-6 col-md-6 pl-4">
+                        <div class="fo-14 mfo-13">Service Total</div>
+                     </div>
+                     <div class="col-6 col-md-6 pr-4 text-right">
+                        <div class="fo-18 mfo-13 fw-600">₹ 599</div>
+                     </div>
+                  </div>
+                  <div class="row m-0">
+                     <div class="col-6 col-md-6 pl-4">
+                        <div class="fo-14 mfo-13">Coupon Discount</div>
+                     </div>
+                     <div class="col-6 col-md-6 pr-4 text-right">
+                        <div class="fo-14 bco mfo-13 fw-600">Apply Coupon</div>
+                     </div>
+                  </div>
+                  <div class="row m-0 mt-2 pb-2" style="border-bottom: 2px solid #DBD2D2;">
+                     <div class="col-6 col-md-6 pl-4">
+                        <div class="fo-14 mfo-13">Order Total</div>
+                     </div>
+                     <div class="col-6 col-md-6 pr-4 text-right">
+                        <div class="fo-18 mfo-13 fw-600">₹ 599</div>
+                     </div>
+                  </div>
+                  <div class="row m-0 mt-1 pt-2 pb-2">
+                     <div class="col-6 col-md-6 m-auto pl-4">
+                        <div class="fo-14 mfo-13">Total</div>
+                     </div>
+                     <div class="col-6 col-md-6 pr-4 text-right">
+                        <div class="fo-18 mfo-13 fw-600">₹ 1199</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="checkout_div bg-white p-3">
+                  <div class="row m-0">
+                     <div class="col-6 col-md-6 m-auto">
+                        <div class="fo-20 mfo-13 fw-600">₹ 1199</div>
+                        <div class="fo-15 bco mfo-13 fw-600">View Details</div>
+                     </div>
+                     <div class="col-6 col-md-6 m-auto text-right">
+                        <button class="btn website-button">Continue</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+      <section class="website_section" id="cart_empty">
+         <div class="cart_empty p-5">
+            <img src="img/cart.jpg" class="w-20">
+            <div class="fo-20 fw-700 mfo-15 mt-4">No Services added yet</div>
+            <div class="fo-18 fw-600 mfo-15 mt-2">Your car service is just a click away</div>
+            <button class="btn website-button mt-4">Start Booking Services</button>
+         </div>
+      </section>
+
+      <!--- Login Popup ---->
+      <div class="modal" id="login">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-5">
+               <div class="login_image">
+                  <img src="img/services/1.png">
+               </div>
+               <div class="fo-18 fw-700 mfo-14 text-center mt-4">Enter your phone number to continue</div>
+               <input type="text" placeholder="+91" class="mt-3 logo_input">
+               <button class="btn mt-3" data-dismiss="modal" data-toggle="modal" data-target="#otp2">Get OTP</button>
+               <div class="mt-5 fo-18 text-center fw-600 pt-1 mfo-16">By signing in you agree to our<br><span class="bco">Terms of Service & Privacy Policy</span></div>
+            </div>
+         </div>
+      </div>
+
+
+      <!--- OTP Popup Existing user---->
+      <div class="modal" id="otp1">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-5">
+               <div class="login_image">
+                  <img src="img/services/1.png">
+               </div>
+               <div class="fo-18 fw-700 mfo-14 text-center mt-4">Enter your phone number to continue</div>
+               <input type="text" placeholder="+91" class="mt-3 logo_input">
+               <input type="text" placeholder="One Time Password" class="mt-3">
+               <div class="mt-2 text-right">
+                  <span class="fo-12 fw-600">RESEND OTP</span>
+               </div>
+               <button class="btn mt-3" data-dismiss="modal" data-toggle="modal" data-target="#otp">Submit</button>
+               <div class="mt-5 fo-18 text-center fw-600 pt-1 mfo-16">By signing in you agree to our<br><span class="bco">Terms of Service & Privacy Policy</span></div>
+            </div>
+         </div>
+      </div>
+
+
+      <!--- OTP Popup New user---->
+      <div class="modal" id="otp2">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-5">
+               <div class="login_image">
+                  <img src="img/services/1.png">
+               </div>
+               <div class="fo-18 fw-700 mfo-14 text-center mt-4">Enter your phone number to continue</div>
+               <input type="text" placeholder="+91" class="mt-3 logo_input">
+               <input type="text" placeholder="One Time Password" class="mt-3">
+               <div class="mt-2 text-right">
+                  <span class="fo-12 fw-600">RESEND OTP</span>
+               </div>
+               <input type="text" placeholder="Name" class="mt-3">
+               <input type="text" placeholder="E-Mail" class="mt-3">
+               
+                <label class="custom-control custom-checkbox mt-3">
+                  <input type="checkbox" value="2" name="chbxTerms" class="custom-control-input">
+                  <span class="custom-control-label fo-15 txtco" for="chbxTerms">Get Update On Whatsapp</span>
+                  <img src="img/whatsapp.png" style="margin-top: -6px">
+               </label>
+
+               <button class="btn mt-3" data-dismiss="modal" data-toggle="modal" data-target="#otp">Submit</button>
+               <div class="mt-5 fo-18 text-center fw-600 pt-1 mfo-16">By signing in you agree to our<br><span class="bco">Terms of Service & Privacy Policy</span></div>
+            </div>
+         </div>
+      </div>
+
+
+      <!--- Popup ---->
+      <div class="modal" id="applyCoupon">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+               <div class="select_car_modal p-5">
+                  <div class="closemodal" data-dismiss="modal"><i class="fas fa-times"></i></div>
+                  <div class="fo-18 mfo-14 fw-700 text-center">Apply Coupon</div>
+                  <div class="coupon_search">
+                     <input type="text" name="" placeholder="Enter coupon">
+                     <div>Apply</div>
+                  </div>
+                  <div class="fo-18 mfo-14 fw-700 text-center mt-4">Or</div>
+                  <div class="fo-14 mfo-14 fw-700 text-center mt-2 mb-4">Choose from available coupons</div>
+                  <div class="coupon_card row m-0 p-2 mb-2">
+                     <div class="col-6 col-md-7 m-auto">
+                        <div class="fo-14 fw-600 bco">COU10</div>
+                        <div class="fo-13 fw-600 txtco">10% OFF upto 500</div>
+                        <div class="fo-13 fw-600 txtco">Valid till June 30, 2022</div>
+                     </div>
+                     <div class="col-6 col-md-5 m-auto">
+                        <div class="coupon_card_apply fo-14 bco text-center">Apply Coupon</div>
+                     </div>
+                  </div>
+                  <div class="coupon_card row m-0 p-2 mb-2">
+                     <div class="col-6 col-md-7 m-auto">
+                        <div class="fo-14 fw-600 bco">COU10</div>
+                        <div class="fo-13 fw-600 txtco">10% OFF upto 500</div>
+                        <div class="fo-13 fw-600 txtco">Valid till June 30, 2022</div>
+                     </div>
+                     <div class="col-6 col-md-5 m-auto">
+                        <div class="coupon_card_apply fo-14 bco text-center">Apply Coupon</div>
+                     </div>
+                  </div>
+               </div> 
+            </div>
+         </div>
+      </div>
+
+      <!--- Popup ---->
+      <div class="modal" id="addIssues">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+               <div class="select_car_modal p-4">
+                  <div class="closemodal" data-dismiss="modal"><i class="fas fa-times"></i></div>
+                  <div class="row m-0">
+                     <div class="col-sm-1"></div>
+                     <div class="col-sm-10 pt-4 m-auto">
+                        <div class="searchbox box-shadow">
+                           <div class="searchicon">
+                              <i class="fa fa-search"></i>
+                           </div>
+                           <input type="text" name="" placeholder="Search issues">
+                        </div>
+                     </div>
+                     <div class="col-sm-1"></div>
+                  </div>
+                  <div class="fo-18 mfo-14 fw-700 text-center mt-4 mb-4">Popular Issues</div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+                  <div class="row m-0 issues_list pb-1 pt-1">
+                     <div class="col-11 col-md-11 m-auto pl-1">
+                        <div class="fo-16 txtco mfo-13">Lorem Ipsum Dolor Sit</div>
+                     </div>
+                     <div class="col-1 col-md-1 p-0 m-auto text-right">
+                        <i class="fas fa-plus-circle fo-18 bco"></i>
+                     </div>
+                  </div>
+               </div> 
+            </div>
+         </div>
+      </div>
+
+
+      <footer>
+         <div class="top-footer bg-dark row">
+            <div class="col-md-5">
+               <div class="fo-26 fw-700 mfo-18">Quick Links</div>
+               <div class="row m-0 mt-3">
+                  <div class="col-6 col-md-6">
+                     <ul class="pl-0">
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Careers</li>
+                        <li>Our Partners</li>
+                        <li>Become a partner</li>
+                     </ul>
+                  </div>
+                  <div class="col-6 col-md-6 pr-0">
+                     <ul class="pl-0">
+                        <li>Workshop Locator</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms And Condition</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5 mt-5 mt-md-0">
+               <div class="fo-26 fw-700 mfo-18">Popular Workshop Near you</div>
+               <ul class="pl-0 mt-3 ml-3 ml-md-0">
+                  <li>Lorem Ipsum Dolor Lorem Ipsum Dolor</li>
+                  <li>Lorem Ipsum Dolor Lorem Ipsum Dolor</li>
+                  <li>Lorem Ipsum Dolor Lorem Ipsum Dolor</li>
+                  <li>Lorem Ipsum Dolor Lorem Ipsum Dolor</li>
+                  <li>Lorem Ipsum Dolor Lorem Ipsum Dolor</li>
+               </ul>
+            </div>
+         </div>
+         <div class="bottom-footer bg-theme row m-0">
+            <div class="col-md-3">
+               <div class="bg-white p-2 w-60">
+                  <img src="img/logo.png" class="w-100">
+               </div>
+               <div class="mt-3 fo-16">4th Floor, Near township apartment, New Hills, NCR, Delhi 200154</div>
+               <div class="row m-0 mt-4">
+                  <a href="#" class="mr-3"><i class="fab fa-facebook-f text-white"></i></a>
+                  <a href="#" class="mr-3"><i class="fab fa-twitter text-white"></i></a>
+                  <a href="#" class="mr-3"><i class="fab fa-instagram text-white"></i></a>
+                  <a href="#"><i class="fab fa-youtube text-white"></i></a>
+               </div>
+            </div>
+            <div class="col-md-6 pr-md-4 pl-md-4 pt-4 pt-md-0 m-auto">
+               <div class="bg-dark">
+                  <table class="table">
+                     <tbody>
+                        <tr>
+                          <td class="w-50"><span class="mr-2">@</span> E-Mail</td>
+                          <td class="w-50">abc@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <td class="w-50"><i class="fas fa-phone-alt mr-2"></i> Contact No.</td>
+                          <td class="w-50">+91 9876543201</td>
+                        </tr>
+                        <tr>
+                          <td class="w-50"><i class="fas fa-calendar-week mr-2"></i> Working Days</td>
+                          <td class="w-50">Monday - Saturday</td>
+                        </tr>
+                        <tr>
+                          <td class="w-50"><i class="far fa-clock mr-2"></i> Working Hours</td>
+                          <td class="w-50">7:00 AM - 9:00 PM</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="col-md-3">
+               <img src="img/footer1.jpg" class="w-100">
+            </div>
+         </div>
+         <div class="bg-theme pb-3 fo-16 text-center pt-3">2020-21 Copyright Pvt Ltd</div>
+      </footer>
+      <!--Script files -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/aos.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>

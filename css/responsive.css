@@ -1,0 +1,349 @@
+@media only screen and (min-width: 577px) {
+	.navbar {
+		margin: 0 140px;
+		margin-top: -30px;
+	}
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+	.navbar li a {
+		font-size: 15px;
+	}
+	#landingPage_carousel, .mt-25 {
+		margin-top: -25px;
+	}
+	.website_section {
+		padding: 15px 70px;
+	}
+	.website_section_blog{
+		padding: 15px 130px;
+	}
+	.website_services_section{
+		padding: 50px 130px;
+	}
+	.vehicle_help_section .col-md-9 {
+		padding-left: 60px;
+	}
+	.happy_customers_text .row {
+		padding-right: 325px;
+	}
+
+
+	/* Services page */
+	.services_topcard .col-md-3, .services_topcard .row .col-md-6:first-child{
+		border-right: 2px solid #A9A2A2;
+	}
+	.service_small_card_section .col-md-6{
+		padding: 0px 10px;
+	}
+	.orders_options{
+		padding: 40px 380px;
+	}
+	.review_stars{
+		justify-content: space-around;
+		padding: 40px 50px;
+	}
+	.my_car_section .card{
+		box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
+	}
+	.my_car_section_image{
+		padding: 0px 125px;
+	}
+	#my_car .owl-nav {
+		position: absolute;
+		top: 45%;
+		display: block!important;
+		width: 100%;
+	}
+	#blog_carousel .carousel-caption, #blog_carousel2 .carousel-caption{
+		padding-top: 250px;
+	}
+	.track_order .progresss{
+		margin-left: 150px;
+	}
+	/* About page */
+	.about_gallery .col-md-4{
+		padding: 0px 2.5px;
+	}
+	.about_gallery .col-md-6.right{
+		padding-right: 5px;
+	}
+	.about_gallery .col-md-6.left{
+		padding-left: 5px;
+	}
+	.careers_section{
+		padding: 50px 225px;
+	}
+	.careers_section .justify-content-around{
+		border-bottom: 1px solid #686262;
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.navbar {
+		margin: 0 140px;
+		margin-top: -30px;
+	}
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	/* Global classes for mobile */
+	.mfo-35 {
+		font-size: 35px!important;
+	}
+	.mfo-32 {
+		font-size: 32px!important;
+	}
+	.mfo-30 {
+		font-size: 30px!important;
+	}
+	.mfo-28 {
+		font-size: 28px!important;
+	}
+	.mfo-25 {
+		font-size: 25px!important;
+	}
+	.mfo-24 {
+		font-size: 24px!important;
+	}
+	.mfo-22 {
+		font-size: 22px!important;
+	}
+	.mfo-20 {
+		font-size: 20px!important;
+	}
+	.mfo-18 {
+		font-size: 18px;
+	}
+	.mfo-17 {
+		font-size: 17px!important;
+	}
+	.mfo-16 {
+		font-size: 16px!important;
+	}
+	.mfo-15 {
+		font-size: 15px!important;
+	}
+	.mfo-14 {
+		font-size: 14px!important;
+	}
+	.mfo-13 {
+		font-size: 13px!important;
+	}
+	.mfo-12 {
+		font-size: 12px!important;
+	}
+	.mfo-11 {
+		font-size: 11px!important;
+	}
+	.mow-100 {
+		width: 100%!important;
+	}
+	.mow-90 {
+		width: 90%!important;
+	}
+	.mow-50 {
+		width: 50%!important;
+	}
+	.mlh-19 {
+		line-height: 1.9em;
+	}
+	/* Custom classes */
+	.searchbox .searchicon {
+		width: 12%;
+	}
+	.searchbox input {
+		width: 88%;
+	}
+	.landingpage_text {
+		width: auto;
+	}
+	.landingpage_text::before {
+		background-color: #000000;
+		opacity: 1;
+	}
+	.carousel-caption {
+		padding: 10px;
+	}
+	.control_buttons {
+		width: 100%;
+		height: auto;
+		margin-bottom: 8px;
+	}
+	.website_section {
+		padding: 10px;
+	}
+	.website_section_blog{
+		padding: 30px;
+	}
+	.service_container {
+		width: 50%;
+	}
+	.service_card .bg-red {
+		font-size: 14px;
+		font-weight: 600;
+		padding: 5px 12px 5px 5px;
+	}
+	.benefit_container {
+		width: 50%;
+		margin-bottom: 35px;
+	}
+	.vehicle_help_section .col-md-9 {
+		padding: 15px;
+	}
+	.vehicle_help_section button {
+		top: 40%;
+		right: 40%;
+		left: 5%;
+	}
+	.choose_us_section .col-9 {
+		padding-right: 0;
+	}
+	.happy_customers {
+		top: 4%;
+		bottom: 4%;
+	}
+	.happy_customers_text {
+		left: 5%;
+	}
+	.happy_customers_text .fo-40 {
+		border-bottom: 3px solid #FFFFFF;
+		max-width: 220px;
+		padding-bottom: 4px;
+	}
+	.happy_customers_text .row {
+		padding-right: 105px;
+	}
+	.happy_customers_imagediv div {
+		padding: 10px;
+	}
+	#reviews .owl-nav {
+		top: 5%;
+	}
+	.top-footer,
+	.bottom-footer {
+		padding: 20px 0px;
+	}
+	.bottom-footer td {
+		padding-left: 15px;
+	}
+
+
+	/* Services page */
+	.services_topcard_amt{
+		margin-top: 13%;
+	}
+	.checkoutdiv{
+		margin-top: 30%;
+	}
+	.service_small_card .position-relative{
+		height: 50px;
+	}
+	.key_specs_card{
+		width: 120px;
+		height: 120px;
+	}
+	.key_specs_card img{
+		width: 30%;
+	}
+
+	/* Services 3 page */
+	.garage_recommendation{
+		width: 25px;
+	    height: 25px;
+	}
+	.garage_recommendation img{
+		margin: 6px
+	}
+	#fuelBox_section .img2{
+		position: absolute;
+	    left: 10%;
+	    bottom: 20%;
+	    top: -8%;
+	    width: 53%;
+	}
+	.cart_section .col-md-7, .cart_section .col-md-5{
+		padding: 0;
+	}
+	.checkout_div{
+		top: 100%;
+		height: 10vh
+	}
+	.calender_row_1{
+		margin-right: 5px;
+	}
+	.calender_row{
+		width: 70px;
+		margin: auto;
+		padding: 3px;
+		font-size: 11px;
+	}
+	.login_image{
+		margin-top: -30px;
+	}
+
+
+	/* Profile section */
+	.profile_section .col-md-4{
+		padding: 0;
+	}
+
+	/* My car page */
+	.my_car_section{
+		padding: 20px 0px;
+	}
+	#my_car .owl-nav .owl-next {
+		right: -1.5%;
+	}
+
+	#my_car .owl-nav .owl-prev {
+		left: -1.5%;
+	}
+
+	.review_stars{
+		padding: 40px 0px;
+		justify-content: space-around;
+	}
+	.review_stars i{
+		font-size: 28px;
+	}
+	.address_section .col-md-7, .address_section .col-md-5{
+		padding: 0;
+	}
+
+	/* Blogs page */
+	.blog-border{
+		margin-top: 4px;
+	}
+	#blog_carousel .carousel-caption, #blog_carousel2 .carousel-caption{
+		padding-top: 60px;
+	}
+	.about_page_sectio{
+		box-shadow: 5px 4px 18px rgba(0, 0, 0, 0.25);
+	}
+	.about_gallery .col-md-6{
+		padding: 0;
+	}
+	.bpartner_section ul li{
+		font-size: 17px;
+	}
+	.bpartner_card{
+		height: 300px;
+	}
+	.careers_section{
+		padding: 5px;
+	}
+	.careers_section button{
+		min-width: 60%;
+		margin-bottom: 10px;
+	}
+	.careers_section .col-md-6{
+		padding: 0;
+	}
+}
